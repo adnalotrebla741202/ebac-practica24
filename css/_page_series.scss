@@ -1,0 +1,41 @@
+.series-detail 
+{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  &__title 
+  {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: $primary-color;
+    text-align: center;
+  }
+  
+  &__image 
+  {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  &__summary 
+  {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: $secondary-color;
+  }
+  
+  &__status,
+  &__genres 
+  {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+}
+  

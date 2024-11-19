@@ -1,0 +1,25 @@
+.home 
+{
+  .series-list 
+  {
+    padding-right: 33.0px;
+    background-color: #fff;
+  
+    &__title 
+    {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-align: center;
+      color: $primary-color;
+    }
+  
+    &__grid 
+    {
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

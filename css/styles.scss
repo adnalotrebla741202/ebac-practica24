@@ -1,0 +1,13 @@
+// Importar variables
+@import './base_variables';
+
+// Importar estilos de layout
+@import './layout_header';
+@import './layout_footer';
+
+// Importar estilos de componentes
+@import './components_series';
+
+// Importar estilos de páginas
+@import './page_home';
+@import './page_series';
